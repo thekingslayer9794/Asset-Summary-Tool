@@ -1,0 +1,32 @@
+<div>
+  <!-- Conatiner having searchbox -->
+  <div id="nearbyToolSearch"></div>
+  <!--Container having layers dropdown -->
+	<div class="nearbyToolContainer" data-dojo-attach-point = "nearbyToolLayerContainer">
+    <label class="nearbyToolLabel" for="nearbyToolLayerLabel">Select Layer:</label>
+    <select data-dojo-attach-point="nearbyToolLayerSelect" id="nearbyToolLayerSelect"></select>
+  </div>
+  <!--Container having layers dropdown -->
+	<div class="nearbyToolContainer" data-dojo-attach-point = "nearbyToolFieldsContainer">
+    <label class="nearbyToolLabel" for="nearbyToolFieldLabel">Select Field:</label>
+    <input data-dojo-attach-point="nearbyToolFieldSelect" id="nearbyToolFieldSelect">
+  </div>
+  <!--Container having Buffer input  -->
+  <div class="nearbyToolContainer" data-dojo-attach-point="nearbyToolBufferInput">
+    <label class="nearbyToolLabel" for="nearbyToolInputBuffer">Buffer Area:</label>
+    <input type="number" name="nearbyToolInputBufferText" id="nearbyToolInputBufferText" data-dojo-attach-point="nearbyToolInputBufferText" value="5">
+    <select name="nearbyToolBufferUnitSelect" data-dojo-attach-point="nearbyToolBufferUnitSelect" id="nearbyToolBufferUnitSelect">
+      <option value="meters">Meters</option>
+      <option value="feet">Feet</option>
+      <option value="kilometers">KM</option>
+      <option value="miles">Miles</option>
+      <option value="yards">Yards</option>
+    </select>
+  </div>
+  <!-- Container having input buttons -->
+  <div class="nearbyToolContainer btnContainer" data-dojo-attach-point="nearbyToolButtonContainer">
+    <input type="button" class="nearbyToolBtn" data-dojo-attach-point="nearbyToolInputButton" value="Click">
+  </div>
+  <!--Container showing the results -->
+  <div id="resultDiv"></div>
+</div>

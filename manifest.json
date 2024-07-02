@@ -1,0 +1,14 @@
+{
+  "name": "NearbyTool",
+  "platform": "HTML",
+  "version": "2.26",
+  "wabVersion": "2.26",
+  "author": "Ankur Singh",
+  "description": "This is the widget used for finding out the summary of assets",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "featureActions": [{
+    "name": "ShowVertex",
+    "uri": "ShowVertexFeatureAction"
+  }]
+}
